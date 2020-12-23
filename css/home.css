@@ -24,3 +24,22 @@
     border-radius: 25px;
     outline: none;
 }
+
+.home-button-2{
+    
+    background-color: #365C9A; /* Green */
+    border: none;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    outline: none;
+}

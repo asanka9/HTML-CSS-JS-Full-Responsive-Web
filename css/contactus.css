@@ -1,0 +1,10 @@
+.input, textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  color: black;
+  width: 40%;
+  outline: none;
+}
