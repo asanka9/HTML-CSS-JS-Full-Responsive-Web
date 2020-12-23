@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    width: 100%;
+}
+  
+.navItems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+.nav-item {
+    float: left;
+}
+
+body{
+    margin: 0;
+}
+  
+
+.scrolling-active{
+    background-color: #fff;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.nav-brand {
+    float: left;
+}
+  
+.nav-brand a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav-item a:hover {
+    opacity: 0.5;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="colhome-"] {
+    width: 100%;
+}
+
+  
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {
+        width: 33.33%;
+
+    }
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {
+        width: 66.66%;
+        height: 1000px;
+        background-color: rgb(177, 102, 102);
+    }
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 769px) {
+    /* For desktop: */
+
+    .col-6 {
+        text-align: center;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+
+    .colhome-4 {
+        width: 33.33%;
+        height: 600px;
+        background-color: #4FA15F;
+        
+    }
+
+    .colhome-8 {
+        width: 66.66%;
+        height: 600px;
+        background-color:  #4E84C2;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+    /* For desktop: */
+
+    .colhome-4 {
+
+        background-color: #4E84C2;
+    }
+
+    .colhome-8 {
+        height: 850px;
+        background-color:  #4E84C2;
+    }
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+[class*="colhome-"] {
+    float: left;
+    padding: 15px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.btn {
+    display:block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid red;
+    
+  }
+

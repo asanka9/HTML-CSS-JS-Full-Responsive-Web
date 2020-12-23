@@ -1,0 +1,20 @@
+table, td, th {
+    border: 1px solid black;
+    border-left: 0ch;
+    border-right: 0ch;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th{
+      height: 50px;
+  }
+
+  td {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+  }

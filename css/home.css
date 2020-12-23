@@ -1,0 +1,26 @@
+.home-subhead{
+
+}
+
+.home-images{
+    background-image: url("images/bestseller1.jpg");
+}
+
+.home-button{
+    
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    outline: none;
+}
