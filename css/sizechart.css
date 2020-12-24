@@ -1,5 +1,5 @@
 table, td, th {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     border-left: 0ch;
     border-right: 0ch;
   }
@@ -17,6 +17,18 @@ table, td, th {
     height: 50px;
     vertical-align: middle;
     text-align: center;
+  }
+
+  tr:nth-child(even){
+    background-color:#F1F1F1;
+  }
+
+  tr:hover{
+    background-color:#4E84C2;
+  }
+
+  tr:first-child:hover{
+    background-color:white;
   }
 
 
@@ -41,6 +53,7 @@ table, td, th {
   }
 
   .s-con:hover{
-    box-shadow: 10px 10px 10px 10px #F1F1F1;    
+    box-shadow: 10px 10px 10px 10px #928b8b;  
+    padding-bottom: 20px;
   }
 
