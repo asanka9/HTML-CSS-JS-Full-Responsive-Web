@@ -18,3 +18,29 @@ table, td, th {
     vertical-align: middle;
     text-align: center;
   }
+
+
+  .s-con{
+    width: 100%;
+    padding: 5%;
+  }
+
+  .s-name{
+    font-weight: bold;
+    margin-top: 3%;
+  }
+
+  .s-brand{
+    font-size: 12px;
+    margin-top: 1%;
+  }
+
+  .s-star{
+    color: orange;
+    margin-top: 2%;
+  }
+
+  .s-con:hover{
+    box-shadow: 10px 10px 10px 10px #F1F1F1;    
+  }
+

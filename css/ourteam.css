@@ -1,0 +1,16 @@
+.o-name{
+    font-weight:bold;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.o-role{
+    color:#365C9A;
+    margin-top:2px;
+    font-size: 12px;
+
+}
+
+.o-grid{
+    padding: 3%;
+}
