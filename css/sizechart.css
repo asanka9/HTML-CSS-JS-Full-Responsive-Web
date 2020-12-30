@@ -25,10 +25,13 @@ table, td, th {
 
   tr:hover{
     background-color:#4E84C2;
+    color :#F1F1F1;
+
   }
 
   tr:first-child:hover{
     background-color:white;
+    color:rgba(0, 0, 0, 0.918);
   }
 
 
@@ -53,7 +56,8 @@ table, td, th {
   }
 
   .s-con:hover{
-    box-shadow: 10px 10px 10px 10px #928b8b;  
-    padding-bottom: 20px;
+    transform: translateY(-8px);
+    box-shadow: 5px 5px 5px 5px #F1F1F1;
+
   }
 

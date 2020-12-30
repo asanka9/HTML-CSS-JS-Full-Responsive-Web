@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/ourteam.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Document</title>
+    <title>Sneakers Store</title>
 </head>
 
 <body>
@@ -20,10 +20,10 @@
             <ul class="navItems">
                 <li class="nav-brand"><a href="#home">Sneakers Store</a></li>
                 <div style="float: right;">
-                    <li class="nav-item"><a onclick="homeClick_()">Home</a></li>
-                    <li class="nav-item"><a onclick="sizeChart_()">Size Chart</a></li>
-                    <li class="nav-item"><a onclick="ourTeam_()">Our team</a></li>
-                    <li class="nav-item" style="margin-right: 20px;"><a onclick="contactUs_()">Contact Us</a></li>
+                    <li class="nav-item"><a href="#home" >Home</a></li>
+                    <li class="nav-item"><a href="#sizechart" >Size Chart</a></li>
+                    <li class="nav-item"><a href="#ourteam" >Our team</a></li>
+                    <li class="nav-item" style="margin-right: 20px;"><a href="#contactus">Contact Us</a></li>
                 </div>
             </ul>
         </nav>
@@ -31,7 +31,7 @@
 
     <div>
         <div>
-            <div class="home">
+            <div id="home" class="home">
                 <div class="row">
                     <div class="colhome-4"></div>
                     <div class="colhome-8 "></div>
@@ -57,7 +57,7 @@
                                     <h1 style="margin-top: 5px;">on sale</h1>
                                 </div>
                                 <div style="margin-top: 25px;">
-                                    <button class="home-button"><b>Start Shopping</b></button>
+                                    <a href="#bestsellers"><button class="home-button"><b>Start Shopping</b></button></a>
                                 </div>
                             </div>
                         </div>
@@ -66,10 +66,10 @@
             </div>
 
 
-            <div>
-                <div style="text-align: center;">
+            <div id="bestsellers" >
+                <div style="text-align: center; padding: 5%;">
                     <span>BEST SELLERS</span>
-                    <div class="row">
+                    <div class="row" style="padding-top: 2%;">
                         <div class="col-4">
                             <div class="s-con">
                                 <img class="s-img" width="100%" src="images/bestseller1.jpg">
@@ -116,8 +116,8 @@
 
 
 
-            <div class="sizeChart row">
-                <div class="col-12" style="text-align: center;">
+            <div id="sizechart" style="padding-bottom: 5%;" class="sizeChart row" >
+                <div class="col-12" style="text-align: center;  ">
                     <p>Size Chart</p>
                 </div>
                 <div style="padding-left: 5%; padding-right: 5%;">
@@ -179,7 +179,7 @@
 
 
 
-            <div class="contactUs">
+            <div id="ourteam"  class="contactUs" style="padding: 5%;">
                 <div style="text-align: center;">
                     <span>STILL IN DOUBT ? COME AND OUR TEAM WILL HELP YOU </span>
                 </div>
@@ -208,17 +208,17 @@
             </div>
 
 
-            <div class="ourTeam">
-                <div class="row" style="padding-left:5%; padding-right: 5%; margin-top:7%">
+            <div class="ourTeam" id="contactus" style="padding-bottom: 5%;" >
+                <div class="row" style="padding-left:5%; padding-right: 5%; margin-top:2%">
                     <div class="col-6" style="text-align: left;">
                         <p>GET IN TOUCH WITH US AND WE CAN HELP YOU</p>
                         <h2>Come to us or ask question right now</h2>
-                        <form>
+                        <form style="margin-top: 3%;"  >
                             <input class="input" placeholder="your name*" required>
-                            <input class="input" placeholder="your last name*" required>
+                            <input style="margin-left: 5%;" class="input" placeholder="your last name*" required>
                             <br>
-                            <input class="input" placeholder="Email" type="email">
-                            <input class="input" placeholder="Phone">
+                            <input class="input" required placeholder="Email" type="email">
+                            <input style="margin-left: 5%;" class="input" placeholder="Phone">
                             <br>
                             <textarea placeholder="Message"></textarea>
                             <br>
@@ -229,17 +229,14 @@
                     </div>
 
                     <div class="col-6">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.826328252503!2d79.84923621472042!3d6.911358695006162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25942865f1bfb%3A0x141db277b60011d8!2sLiberty%20Plaza!5e0!3m2!1sen!2slk!4v1608720833892!5m2!1sen!2slk"
-                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                            aria-hidden="false" tabindex="0"></iframe>
+                        <a href ="https://www.google.lk/maps/@7.857685,80.70625,7z"><img src="images/map.jpg"  width="100%"></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer style="text-align: center;">
+    <footer style="text-align: center;" >
         <div style="padding: 20px; color: white; background-color: #365C9A;">
             Copyright &copy 2020 - Sneakers Store - All Right Reserved
         </div>

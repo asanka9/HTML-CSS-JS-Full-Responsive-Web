@@ -164,3 +164,6 @@ html {
     
   }
 
+.mySlides:hover{
+    transform: scale(1.1);
+}
