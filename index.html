@@ -213,14 +213,14 @@
                     <div class="col-6" style="text-align: left;">
                         <p>GET IN TOUCH WITH US AND WE CAN HELP YOU</p>
                         <h2>Come to us or ask question right now</h2>
-                        <form style="margin-top: 3%;"  >
+                        <form method="post" enctype="text/plain"  action="mailto:someone@example.com" style="margin-top: 3%;"  >
                             <input class="input" placeholder="your name*" required>
                             <input style="margin-left: 5%;" class="input" placeholder="your last name*" required>
                             <br>
                             <input class="input" required placeholder="Email" type="email">
                             <input style="margin-left: 5%;" class="input" placeholder="Phone">
                             <br>
-                            <textarea placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message"></textarea>
                             <br>
                             <button type="submit" class="home-button-2"><b>Send Message</b></button>
 
